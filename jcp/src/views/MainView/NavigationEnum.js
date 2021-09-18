@@ -1,7 +1,11 @@
 
 export const Navigation = {
-	PROFILE: "Profile",
-	HOME: "Acceuil",
+    HOME: "Accueil",
+    VIDEO: "Vidéos",
 	SETTINGS: "Réglages",
-	VIDEO: "Vidéos",
+    PROFILE: "Profile",
+    SIGNIN: "Connexion",
+    SIGNUP: "Inscription",
 }
+
+export const NavigationLabel = ["Accueil","Vidéos","Réglages","Profile"]
