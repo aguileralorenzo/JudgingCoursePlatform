@@ -36,7 +36,7 @@ function MainView (props){
                       <BottomNavigationAction label={NavEnum.Navigation.PROFILE} icon={<AccountCircle />} />
                     </BottomNavigation>
                     <Container maxWidth="l">
-                <Box sx={{ bgcolor: '#cfe8fc', height: '100vh'}}  >
+                <Box sx={{ bgcolor: '#73a6ca', height: '100vh'}}  >
                     
                     {value === 0 && <HomeView value={value} /> }
                     {value === 1 && <VideosView value={value} /> }
